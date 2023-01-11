@@ -2,8 +2,13 @@
 // for information about these interfaces
 // and what to do when importing types
 declare namespace App {
-	// interface Error {}
-	// interface Locals {}
+    // interface Error {}
+	interface Locals {
+		people_we_own: {
+			name: string = '',
+			role: string = '',
+		}
+	}
 	// interface PageData {}
 	// interface Platform {}
 }
